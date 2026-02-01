@@ -124,7 +124,9 @@ Manages high-volume patient touchpoints (e.g., clinic intake, surveys, appointme
 
 ### **Quickstart**
 
-Ensure that the underlying repositories ```ambient-provider``` and ```ambient-patient``` are cloned.
+The underlying repositories ```ambient-provider``` and ```ambient-patient``` are integrated as git submodules. 
+
+If you need to clone or update them, run:
 
 ```bash
 git submodule update --init --recursive --remote
